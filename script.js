@@ -16,7 +16,7 @@ while(gameflag){
  
     user = user.toLocaleLowerCase();
 
-    if (user == "R") 
+    if (user == "r") 
     {
       if (compChoice == "r") 
       {
