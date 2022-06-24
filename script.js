@@ -14,16 +14,16 @@ while(gameflag){
         gameflag=false;
     }
  
-    user = user.toLocaleLowerCase();
+    user = user.toLocaleUpperCase();
 
-    if (user == "r") 
+    if (user == "R") 
     {
-      if (compChoice == "r") 
+      if (compChoice == "R") 
       {
        alert("You Chose Rock, Comp chose Rock, You Tied!");
        t++
       } 
-      else if (compChoice == "p") 
+      else if (compChoice == "P") 
       {
        alert("You Chose Paper, Comp chose Rock, You Lose!");
        l++
@@ -33,14 +33,14 @@ while(gameflag){
        w++
       };
       }
-      else if (user == "p")
+      else if (user == "P")
        {
-       if (compChoice == "r") 
+       if (compChoice == "R") 
        {
         alert("You Chose Paper, Comp chose Rock, You Win!");
         r++
        } 
-       else if (compChoice == "p") 
+       else if (compChoice == "P") 
        {
         alert("You Chose Paper, Comp chose Rock, You Tied!");
         t++
@@ -49,11 +49,11 @@ while(gameflag){
         alert("You Chose Paper, Comp chose Rock, You Lose!");
         l++
        };
-     } else if (user == "s") {
-       if (compChoice == "r") {
+     } else if (user == "S") {
+       if (compChoice == "R") {
         alert("You Chose Scissor, Comp chose Rock, You Lose!");
         l++
-       } else if (compChoice == "p") {
+       } else if (compChoice == "P") {
         alert("You Chose Scissor, Comp chose Paper, You Win!");
         w++
       } else {
